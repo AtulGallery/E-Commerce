@@ -2,8 +2,8 @@ package ecomm_Shopping;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
@@ -24,7 +24,7 @@ public class iFrames {
 	
 	@Test
 	public void SwitchToiFrame() {
-		driver.findElement(By.xpath("//legend[text()='iFrame Example']")).click();
+		WebDriver frame = driver.switchTo().frame(0);
 	}
 
 }
