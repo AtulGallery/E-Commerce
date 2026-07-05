@@ -8,4 +8,13 @@ public class SampleClassCommitUK {
 	public void changeInMethodBYUK() {
 		System.out.println("this commit works perfectly///");
 	}
+	@Test
+	public void nativeAndroidTest() {
+		System.out.println("this commit works nativeAndroidTest///");
+	}
+	@Test
+	public void RestAPITest() {
+		System.out.println("this commit works perfectly RestAPITest///");
+	}
+	
 }
