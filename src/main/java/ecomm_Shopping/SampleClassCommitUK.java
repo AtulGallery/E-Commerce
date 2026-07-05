@@ -16,5 +16,13 @@ public class SampleClassCommitUK {
 	public void RestAPITest() {
 		System.out.println("this commit works perfectly RestAPITest///");
 	}
+	@Test
+	public void AnothgerCommeitDromEST() {
+		System.out.println("this commit works perfectly AnothgerCommeitDromEST///");
+	}
+	@Test
+	public void newTest() {
+		System.out.println("this commit works perfectly AnothgerCommeitDromEST newTest///");
+	}
 	
 }

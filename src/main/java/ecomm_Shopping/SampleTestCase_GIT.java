@@ -7,5 +7,10 @@ public class SampleTestCase_GIT {
 	public void GitY() {
 		System.out.println("this is a git Y account");
 	}
+	
+	@Test
+	public void ESTTimezonechanges() {
+		System.out.println("this is a git Y ESTTimezonechanges");
+	}
 
 }
